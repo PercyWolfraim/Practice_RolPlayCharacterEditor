@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#Titulo{
+  background: white;
+  padding: 10px;
+  background-color: Brown;
+}
+#main form{
+  position: relative;
+  float:left;
+  width: 25%;
+  height: 800px;
+  padding: 20px;
+  background-color: grey;
+}
