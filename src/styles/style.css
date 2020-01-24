@@ -6,12 +6,13 @@
   background: white;
   padding: 10px;
   background-color: Brown;
+  color: white;
 }
 #main form{
   position: relative;
   float:left;
   width: 25%;
-  height: 800px;
+  height: 100%;
   padding: 20px;
   background-color: grey;
 }
