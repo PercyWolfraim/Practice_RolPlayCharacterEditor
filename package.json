@@ -1,0 +1,30 @@
+{
+  "name": "WebNode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PercyWolfraim/Practice_RolPlayCharacterEditor.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PercyWolfraim/Practice_RolPlayCharacterEditor/issues"
+  },
+  "homepage": "https://github.com/PercyWolfraim/Practice_RolPlayCharacterEditor#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "mongoose": "^5.8.9",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2"
+  }
+}
