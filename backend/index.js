@@ -1,4 +1,4 @@
-/*Primero creamos dos carpeta: 'backend' y 'frontend'
+/*Primero creamos dos carpeta: 'backend' y 'frontend, dentro de backend creamos las carpetas public, routs y models'
 
 luego creamos una termina presionando ctrl + shift + p y escribimos 'integrate terminal'
 
@@ -18,6 +18,9 @@ const path = require('path');
 //Incializamos las siguientes variables:
 const app = express();
 
+//con esta invocamos la funcion de nuestro archivo database para conectar el servidor a la DB
+require('./database');
+
 //Configuramos el servidor
 app.set('port',3000);
 
@@ -29,8 +32,7 @@ multer.diskstorage({...});*/
 const storage = multer.diskStorage({
     //Se define a donde van a ir las imagenes de la siguiente mantera:
     destination:path.join(__dirname,'public/uploads'),
-    /*Para definir el nombre de los archivos subidos con la funsion filename()
-    */
+    //Para definir el nombre de los archivos subidos con la funsion filename()
     filename(req,file,cb){
         /*cb (CallBack) es el nombre final que se le dará al archivo.
         - empezamos con "null" para verificar que no haya un error
