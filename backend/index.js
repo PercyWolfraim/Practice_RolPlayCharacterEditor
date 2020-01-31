@@ -1,3 +1,9 @@
+if(process.env.NODE_ENV != 'production'){
+    require('dotenv').config();
+}
+
+
+
 /*Primero creamos dos carpeta: 'backend' y 'frontend, dentro de backend creamos las carpetas public, routs y models'
 
 luego creamos una termina presionando ctrl + shift + p y escribimos 'integrate terminal'
@@ -22,7 +28,7 @@ const app = express();
 require('./database');
 
 //Configuramos el servidor
-app.set('port',3000);
+app.set('port', 3000);
 
 //Inicializamos el midleware
 app.use(morgan('dev'));
