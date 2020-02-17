@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Rol Character</title>
+
+  <!--Bootstrap4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a href='/' class="navbar-brand">Main Rol Character</a>
+    </div>
+  </nav>
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-md-4">
+        <form id=character-form class="card card-body" method="post">
+          <div class="form-group">
+            <input type="text" id="name" class="form-control" placeholder="Nombre del pesonaje..." autofocus required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="race" class="form-control" placeholder="Raza..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id ="Cclass"class="form-control" placeholder="Clase..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "level" class="form-control" placeholder="Nivel..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "strength" class="form-control" placeholder="Fuerza..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "dexterity" class="form-control" placeholder="Destreza..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "constitution" class="form-control" placeholder="Constitucion..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "inteligence" class="form-control" placeholder="Inteligencia..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "wisdom" class="form-control" placeholder="Sabiduria..." required />
+          </div>
+          <div class="form-group">
+            <input type="text" id = "charisma" class="form-control" placeholder="Carisma..." required />
+          </div>
+
+          <div class="input-group md-3">
+            <div class="custom-file">
+              <input type='file' id="image" class="custom-file-input" value='img-upload'>
+              <label for="image" class="custom-file-label"> Subir apariencia</label>
+            </div>
+          </div>
+          <br>
+          <button class="btn btn-primary"> Crear Personaje</button>
+        </form>
+        </div>
+        <div class = "col-md-8" id = "characters-card"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
