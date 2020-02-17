@@ -23,6 +23,13 @@ class UI{
                             <div class = "card-block px-2">
                                 <h4 class = "card-title">${character.name}</h4>
                                 <p class = "card-text">${character.Cclass}</p>
+                                <p class = "card-text">Race: ${character.race}</p>
+                                <p class = "card-text">Strength: ${character.strength}</p>
+                                <p class = "card-text">Dexterity: ${character.dexterity}</p>
+                                <p class = "card-text">Constitution: ${character.constitution}</p>
+                                <p class = "card-text">Inteligence: ${character.inteligence}</p>
+                                <p class = "card-text">Wisdom: ${character.wisdom}</p>
+                                <p class = "card-text">Charisma: ${character.charisma}</p>
                                 <a class = "btn btn-danger delete" _id = "${character._id}">Eliminar</a>
                             </div>
                         </div>
